@@ -1,0 +1,120 @@
+/* Base Element Styles ----------------------------- */
+
+  body {
+    font-family: 'monospace', sans-serif;
+  line-height: 1.6;
+  color: #3a3a3a;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #32cfe0;
+}
+
+.border {
+  background-color: #073c4b;
+  padding: 15px 20px;
+  margin: 20px;
+  border: 3px solid #32cfe0;
+  border-radius: 30px;
+}
+
+h1 {
+  font-weight: bold;
+  color: #32cfe0;
+}
+
+li {
+  text-align: center;
+  background-color: #073c4b;
+  padding: 20px 20px;
+  margin: auto;
+  border: 3px solid #32cfe0;
+  border-radius: 20%;
+}
+
+/* Header Content ----------------------------- */
+.main-header {
+    display:flex;
+    flex-direction: row;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.date {
+  text-align: center;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 30px;
+    flex: 2;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Main Content ----------------------------- */
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+  height: 60vh  ;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.status img {
+  -webkit-transition: all 0.5s ease; /*Expanding image transition*/
+  width: 10vh;
+  height: 10vh;
+}
+
+.status img:hover {
+  width: 50vh;
+  height: 50vh;
+}
+
+.console {
+  flex: 5;
+  margin: auto;
+}
+
+.hue {
+  text-align: center;
+  background-color: #073c4b;
+  padding: 30px 30px;
+  margin: auto;
+  border: 3px solid #32cfe0;
+  border-radius: 100%;
+}
+
+.profiles {
+    flex: 1.5;
+}
+
+.characters {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Footer Content ----------------------------- */
+.welcome {
+  text-align: center;
+  color: #32cfe0;
+}
+
+.main-footer {
+  text-align: center;
+}
