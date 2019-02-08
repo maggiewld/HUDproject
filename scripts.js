@@ -2,13 +2,13 @@
 window.addEventListener("keydown", event => {
 
   if (event.key == "v") {
-  document.getElementById('videoDiv').style.border = "solid #7993d5";
+  document.getElementById('videoDiv').style.boxShadow = "0 0 20px #7993d5";
   }
   });
 
   window.addEventListener("keyup", event => {
   if (event.key == "v") {
-  document.getElementById('videoDiv').style.border = "";
+  document.getElementById('videoDiv').style.boxShadow = "";
   }
 });
 
@@ -16,39 +16,39 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "d") {
-  document.getElementById('dateDiv').style.border = "solid #7993d5";
+  document.getElementById('dateDiv').style.boxShadow = "0 0 20px #7993d5";
   }
   });
 
   window.addEventListener("keyup", event => {
   if (event.key == "d") {
-  document.getElementById('dateDiv').style.border = "";
+  document.getElementById('dateDiv').style.boxShadow = "";
   }
 });
 // Nav ----------------------------------------------
 window.addEventListener("keydown", event => {
 
   if (event.key == "n") {
-  document.getElementById('navDiv').style.border = "solid #7993d5";
+  document.getElementById('navDiv').style.boxShadow = "0 0 20px #7993d5";
   }
   });
 
   window.addEventListener("keyup", event => {
   if (event.key == "n") {
-  document.getElementById('navDiv').style.border = "";
+  document.getElementById('navDiv').style.boxShadow = "";
   }
 });
 // Status -------------------------------------------
 window.addEventListener("keydown", event => {
 
   if (event.key == "s") {
-  document.getElementById('statusDiv').style.border = "solid #7993d5";
+  document.getElementById('statusDiv').style.boxShadow = "0 0 20px #7993d5";
   }
   });
 
   window.addEventListener("keyup", event => {
   if (event.key == "s") {
-  document.getElementById('statusDiv').style.border = "";
+  document.getElementById('statusDiv').style.boxShadow = "";
   }
 });
 
@@ -71,13 +71,13 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "c") {
-  document.getElementById('charDiv').style.border = "solid #7993d5";
+  document.getElementById('charDiv').style.boxShadow = "0 0 20px #7993d5";
   }
   });
 
   window.addEventListener("keyup", event => {
   if (event.key == "c") {
-  document.getElementById('charDiv').style.border = "";
+  document.getElementById('charDiv').style.boxShadow = "";
   }
 });
 
@@ -85,12 +85,12 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "w") {
-  document.getElementById('welcomeDiv').style.border = " solid #7993d5";
+  document.getElementById('welcomeDiv').style.boxShadow = "0 0 20px #7993d5";
   }
   });
 
   window.addEventListener("keyup", event => {
   if (event.key == "w") {
-  document.getElementById('welcomeDiv').style.border = "";
+  document.getElementById('welcomeDiv').style.boxShadow = "";
   }
 });
