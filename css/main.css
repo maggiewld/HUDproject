@@ -97,15 +97,16 @@ li {
 .console {
   flex: 5;
   margin: auto;
+  background: linear-gradient(#073c4b, transparent 90%),
+              linear-gradient(0deg, #1e85aa, transparent);
+  border-radius: 50%;
 }
 
 .hue {
   text-align: center;
-  background-color: #073c4b;
+  background-color: linear-gradient(#073c4b, white) ;
   padding: 30px 30px;
   margin: auto;
-  border: 3px solid #32cfe0;
-  border-radius: 100%;
 }
 
 /* Character Profiles */
