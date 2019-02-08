@@ -113,7 +113,24 @@ li {
   margin: auto;
 }
 
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
 
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 30px #1e85aa, 0 0 40px #1e85aa, 0 0 50px #1e85aa;
+  }
+
+  to {
+    text-shadow: 0 0 30px #32cfe0, 0 0 40px #32cfe0, 0 0 50px #32cfe0, 0 0 60px #32cfe0;
+  }
+}
 
 /* Character Profiles */
 
