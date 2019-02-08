@@ -5,6 +5,7 @@
   line-height: 1.6;
   color: #3a3a3a;
   margin: 0;
+  background-color: #073c4b;
 }
 
 a {
@@ -13,7 +14,7 @@ a {
 }
 
 .border {
-  background-color: #073c4b;
+  background: radial-gradient(#073c4b 50%, #1e85aa);
   padding: 15px 20px;
   margin: 20px;
   border: 3px solid #32cfe0;
