@@ -57,13 +57,13 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "h") {
-  document.getElementById('nameDiv').style.textShadow = "0 0 20px #7993d5";
+  document.getElementById('nameDiv').style.boxShadow = "0 0 40px #7993d5";
   }
   });
 
   window.addEventListener("keyup", event => {
   if (event.key == "h") {
-  document.getElementById('nameDiv').style.textShadow = "";
+  document.getElementById('nameDiv').style.boxShadow = "";
   }
 });
 
