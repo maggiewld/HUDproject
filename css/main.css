@@ -55,12 +55,23 @@ li {
     flex-direction: row;
     padding: 10px;
     margin: 30px;
-    flex: 2;
+    flex: 1;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.main-nav li:hover {
+  border-color: #bbd9fe;
+  -webkit-transition: all 5s ease;
+  width: 20vh;
 }
 
 /* Main Content ----------------------------- */
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -69,11 +80,7 @@ li {
   height: 60vh  ;
 }
 
-.main-content {
-  display: flex;
-  flex-direction: row;
-}
-
+/* Status */
 .status img {
   -webkit-transition: all 0.5s ease; /*Expanding image transition*/
   width: 10vh;
@@ -85,6 +92,7 @@ li {
   height: 50vh;
 }
 
+/* Center Console */
 .console {
   flex: 5;
   margin: auto;
@@ -99,6 +107,7 @@ li {
   border-radius: 100%;
 }
 
+/* Character Profiles */
 .profiles {
     flex: 1.5;
 }
@@ -107,6 +116,24 @@ li {
   display: flex;
   flex-direction: column;
   flex: 1;
+  -webkit-transition: all 1s ease;
+}
+
+.characters li:hover {
+  width: 10vh;
+  height: 10vh;
+}
+
+.lord {
+  background: no-repeat center url("../images/lordcommander.jpg");
+}
+
+.moon {
+  background: no-repeat center url("../images/mooncake.jpg");
+}
+
+.night {
+  background: no-repeat center url("../images/nightfall.jpg");
 }
 
 /* Footer Content ----------------------------- */
