@@ -2,7 +2,7 @@
 window.addEventListener("keydown", event => {
 
   if (event.key == "v") {
-  document.getElementById('videoDiv').style.border = "thick solid black";
+  document.getElementById('videoDiv').style.border = "solid #7993d5";
   }
   });
 
@@ -16,7 +16,7 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "d") {
-  document.getElementById('dateDiv').style.border = "thick solid black";
+  document.getElementById('dateDiv').style.border = "solid #7993d5";
   }
   });
 
@@ -29,7 +29,7 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "n") {
-  document.getElementById('navDiv').style.border = "thick solid black";
+  document.getElementById('navDiv').style.border = "solid #7993d5";
   }
   });
 
@@ -42,7 +42,7 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "s") {
-  document.getElementById('statusDiv').style.border = "thick solid black";
+  document.getElementById('statusDiv').style.border = "solid #7993d5";
   }
   });
 
@@ -51,13 +51,27 @@ window.addEventListener("keydown", event => {
   document.getElementById('statusDiv').style.border = "";
   }
 });
-// Circular Progress Bar ----------------------------
+
+// Center Console -------------------------------
+
+window.addEventListener("keydown", event => {
+
+  if (event.key == "h") {
+  document.getElementById('nameDiv').style.textShadow = "0 0 20px #7993d5";
+  }
+  });
+
+  window.addEventListener("keyup", event => {
+  if (event.key == "h") {
+  document.getElementById('nameDiv').style.textShadow = "";
+  }
+});
 
 // Character Profiles -------------------------------
 window.addEventListener("keydown", event => {
 
   if (event.key == "c") {
-  document.getElementById('charDiv').style.border = "thick solid black";
+  document.getElementById('charDiv').style.border = "solid #7993d5";
   }
   });
 
@@ -66,11 +80,12 @@ window.addEventListener("keydown", event => {
   document.getElementById('charDiv').style.border = "";
   }
 });
+
 // Welcome ------------------------------------------
 window.addEventListener("keydown", event => {
 
   if (event.key == "w") {
-  document.getElementById('welcomeDiv').style.border = "thick solid black";
+  document.getElementById('welcomeDiv').style.border = " solid #7993d5";
   }
   });
 
