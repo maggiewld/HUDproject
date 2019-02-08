@@ -5,6 +5,7 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:b" rel="stylesheet" type="text/css">  [issues??]-->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="loading-bar.css"/>
   </head>
 
 <body>
@@ -42,8 +43,14 @@
     </div>
 
   <!-- Center console -->
-    <div class="console main border">
-      <h1 class="hue">H.U.E.</h1>
+    <div class="console main">
+      <!-- <h1 class="hue">H.U.E.</h1> -->
+      <div
+        class="ldBar label-center"
+        style="width:50%;height:50%;margin:auto"
+        data-value="100"
+        data-preset="circle"
+      ></div> <!-- Load bar -->
     </div> <!-- /.hue -->
 
 
@@ -71,6 +78,7 @@
   </footer>
 
 <script src="scripts.js"></script>
+<script type="text/javascript" src="loading-bar.js"></script>
 </body>
 
 
