@@ -36,7 +36,7 @@ Mousing over will show available video controls.
 To code this project I used the following:
 * HTML
 * CSS
-* Javascript
+* JavaScript
 * Google Chrome Version 72.0.3626.96 (64-bit)
 * Atom Version 1.32.2 (64-bit)
 
