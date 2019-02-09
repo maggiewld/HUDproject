@@ -1,12 +1,12 @@
 /* Base Element Styles ----------------------------- */
 
   body {
-    font-family: 'monospace', sans-serif;
+  font-family: 'monospace', sans-serif;
   line-height: 1.6;
   color: #3a3a3a;
   margin: 0;
   background-color: #073c4b;
-  }
+}
 
 a {
   text-decoration: none;
@@ -157,4 +157,11 @@ li {
 
 .main-footer {
   text-align: center;
+}
+
+@media (min-width: 1025px) {
+  body {
+    margin: auto;
+    max-width: 80%;
+  }
 }
