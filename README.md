@@ -4,7 +4,7 @@
 ![Screenshot of webpage](https://github.com/maggiewld/HUDproject/blob/master/screenshot.png?raw=true "What you should see")
 
 ## Instructions
-Open "index.html" in Chrome </br>
+From the root directory, please open "index.html" in Chrome </br>
 *(see footnotes for further information)*
 
 
@@ -34,10 +34,12 @@ Mousing over will show available video controls.
 
 ## Footnotes
 To code this project I used the following:
-* html
-* css
-* javascript
+* HTML
+* CSS
+* Javascript
 * Google Chrome Version 72.0.3626.96 (64-bit)
 * Atom Version 1.32.2 (64-bit)
 
 ## Thanks for reviewing this project!
+This and other projects can be found on my GitHub profile:
+<https://github.com/maggiewld>
