@@ -1,4 +1,34 @@
-// Video --------------------------------------------
+// Character Picture Image Array =========================
+
+var i = 0;
+var images = [];
+var time = 3000; //3s
+
+//Image List ---------------------------------------------
+
+images [0] = "images/avocato.jpg";
+images [1] = "images/lordCommander.jpg";
+images [2] = "images/mooncake.jpg";
+images [3] = "images/nightfall.jpg";
+
+//Image change function ----------------------------------
+function changeImg() {
+  document.slide.src=images[i];
+
+  if(i < images.length - 1) {
+    i ++;
+  } else {
+    i = 0;
+  }
+
+  setTimeout("changeImg()", time);
+}
+
+window.onload = changeImg;
+
+//Light up events on key press ============================
+
+// Video --------------------------------------------------
 window.addEventListener("keydown", event => {
 
   if (event.key == "v") {
@@ -12,7 +42,7 @@ window.addEventListener("keydown", event => {
   }
 });
 
-// Date ---------------------------------------------
+// Date ---------------------------------------------------
 window.addEventListener("keydown", event => {
 
   if (event.key == "d") {
@@ -25,6 +55,7 @@ window.addEventListener("keydown", event => {
   document.getElementById('dateDiv').style.boxShadow = "";
   }
 });
+
 // Nav ----------------------------------------------
 window.addEventListener("keydown", event => {
 
@@ -38,6 +69,7 @@ window.addEventListener("keydown", event => {
   document.getElementById('navDiv').style.boxShadow = "";
   }
 });
+
 // Status -------------------------------------------
 window.addEventListener("keydown", event => {
 
@@ -52,7 +84,7 @@ window.addEventListener("keydown", event => {
   }
 });
 
-// Center Console -------------------------------
+// Center Console ----------------------------------------
 
 window.addEventListener("keydown", event => {
 
@@ -67,7 +99,7 @@ window.addEventListener("keydown", event => {
   }
 });
 
-// Character Profiles -------------------------------
+// Character Profiles ------------------------------------
 window.addEventListener("keydown", event => {
 
   if (event.key == "c") {
@@ -81,7 +113,7 @@ window.addEventListener("keydown", event => {
   }
 });
 
-// Welcome ------------------------------------------
+// Welcome -----------------------------------------------
 window.addEventListener("keydown", event => {
 
   if (event.key == "w") {
