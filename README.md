@@ -11,7 +11,7 @@ Open "index.html" in Chrome </br>
 ### Available Functions
 
 ##### Headings
-Mousing over with light up the text.
+Mousing over will light up the text.
 
 ##### Content Boxes
 Mousing over content boxes will light up the box.
@@ -20,7 +20,7 @@ Mousing over content boxes will light up the box.
 Mousing over will enlarge image.
 
 ##### Key Press
-Press the following keys to light up the respective boxes </br>
+Press the following keys to light up the respective boxes. Multiple buttons can be pressed simultaneously. </br>
 D : Date </br>
 V : Video </br>
 N : Navigation </br>
