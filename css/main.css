@@ -26,6 +26,14 @@ h1 {
   color: #32cfe0;
 }
 
+h1:hover {
+  text-shadow: 0 0 20px #7993d5, 0 0 50px #bbd9fe;
+}
+
+.lightup:hover {
+  box-shadow: 0 0 20px #7993d5, 0 0 50px #bbd9fe;
+}
+
 li {
   text-align: center;
   background-color: #073c4b;

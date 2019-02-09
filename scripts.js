@@ -32,7 +32,7 @@ window.onload = changeImg;
 window.addEventListener("keydown", event => {
 
   if (event.key == "v") {
-  document.getElementById('videoDiv').style.boxShadow = "0 0 20px #7993d5";
+  document.getElementById('videoDiv').style.boxShadow = "0 0 20px #7993d5, 0 0 50px #bbd9fe";
   }
   });
 
@@ -46,7 +46,7 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "d") {
-  document.getElementById('dateDiv').style.boxShadow = "0 0 20px #7993d5";
+  document.getElementById('dateDiv').style.boxShadow = "0 0 20px #7993d5, 0 0 50px #bbd9fe";
   }
   });
 
@@ -60,7 +60,7 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "n") {
-  document.getElementById('navDiv').style.boxShadow = "0 0 20px #7993d5";
+  document.getElementById('navDiv').style.boxShadow = "0 0 20px #7993d5, 0 0 50px #bbd9fe";
   }
   });
 
@@ -74,7 +74,7 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "s") {
-  document.getElementById('statusDiv').style.boxShadow = "0 0 20px #7993d5";
+  document.getElementById('statusDiv').style.boxShadow = "0 0 20px #7993d5, 0 0 50px #bbd9fe";
   }
   });
 
@@ -89,7 +89,7 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "h") {
-  document.getElementById('nameDiv').style.boxShadow = "0 0 40px #7993d5";
+  document.getElementById('nameDiv').style.boxShadow = "0 0 20px #7993d5, 0 0 50px #bbd9fe";
   }
   });
 
@@ -103,7 +103,7 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "c") {
-  document.getElementById('charDiv').style.boxShadow = "0 0 20px #7993d5";
+  document.getElementById('charDiv').style.boxShadow = "0 0 20px #7993d5, 0 0 50px #bbd9fe";
   }
   });
 
@@ -117,7 +117,7 @@ window.addEventListener("keydown", event => {
 window.addEventListener("keydown", event => {
 
   if (event.key == "w") {
-  document.getElementById('welcomeDiv').style.boxShadow = "0 0 20px #7993d5";
+  document.getElementById('welcomeDiv').style.boxShadow = "0 0 20px #7993d5, 0 0 50px #bbd9fe";
   }
   });
 
