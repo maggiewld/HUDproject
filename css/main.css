@@ -133,20 +133,6 @@ li {
 }
 
 /* Character Pictures ----------------------------------*/
-.lord{
-  background: no-repeat center url("../images/lordcommander.jpg");
-  opacity: 0.6;
-}
-
-.moon {
-  background: no-repeat center url("../images/mooncake.jpg");
-  opacity: 0.6;
-}
-
-.night {
-  background: no-repeat center url("../images/nightfall.jpg");
-  opacity: 0.6;
-}
 
 /* Welcome Message -------------------------------------*/
 .welcome {
