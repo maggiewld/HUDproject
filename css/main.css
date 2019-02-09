@@ -89,8 +89,12 @@ h3 {
   padding: 10px;
   margin: 30px;
   flex: 1;
-  align-items: center;
-  justify-content: space-between;
+}
+
+
+.main-nav li {
+  flex-basis: 0;
+  height: 50%;
 }
 
 
